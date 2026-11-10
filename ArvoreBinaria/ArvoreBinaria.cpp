@@ -162,6 +162,6 @@ void exibirElementosArvore(NO* no)
 	//Exibe o valor do no
 	cout << no->valor << endl;
 	
-	//chama a função pro filho esquerdo do nó (volta pro começo)
+	//chama a função pro filho direito do nó (volta pro começo)
 	exibirElementosArvore(no->dir); 
 }
